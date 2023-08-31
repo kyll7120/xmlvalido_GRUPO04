@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- ejemplodtd1.xml SUGRUPO -->
+<?xml-stylesheet type="text/css" href="ejercicio-ii-1b-dtd.css"?>
+
+<!DOCTYPE fichero [
+		<!ELEMENT fichero (ficha+)>
+<!ELEMENT ficha (nombre, apellido, direccion*, DUI?, pais)>
+		<!ELEMENT nombre (#PCDATA)>
+		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
+            <!ATTLIST nombre edad  CDATA  #IMPLIED>
+			<!ATTLIST nombre gentilicio  CDATA  #IMPLIED>
+		<!ELEMENT apellido (#PCDATA)>
+		<!ELEMENT direccion (#PCDATA)>
+		<!ELEMENT DUI (#PCDATA)>
+		<!ELEMENT pais (#PCDATA)>		]>
+<fichero>
+ <ficha>
+  <nombre sexo="masculino" edad="21" gentilicio="salvadoreño">Abner</nombre>
+  <apellido>Rivas</apellido>
+  <direccion>colonia san jose, calle principal</direccion>
+  <DUI>06323701-4</DUI>
+  <pais>El salvador</pais>
+ </ficha>
+</fichero>

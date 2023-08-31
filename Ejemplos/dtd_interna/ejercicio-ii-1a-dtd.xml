@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- ejemplodtd1.xml SUGRUPO -->
+<?xml-stylesheet type="text/css" href="ejercicio-ii-1a-dtd.css"?>
+
 <!DOCTYPE fichero [
 		<!ELEMENT fichero (ficha+)>
 <!ELEMENT ficha (nombre, apellido, direccion*, DUI?)>
@@ -11,8 +13,9 @@
 		<!ELEMENT DUI (#PCDATA)>		]>
 <fichero>
  <ficha>
-  <nombre sexo="femenino" edad="17">Angelina</nombre>
-  <apellido>Fernandez</apellido>
-  <direccion>c/Ulises, 36</direccion>
+  <nombre sexo="masculino" edad="21">Abner</nombre>
+  <apellido>Rivas</apellido>
+  <direccion>colonia san jose, calle principal</direccion>
+  <DUI>06323701-4</DUI>
  </ficha>
 </fichero>
