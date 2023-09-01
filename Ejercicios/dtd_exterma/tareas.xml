@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="tareas.css" type="text/css"?>
+<!DOCTYPE sistema SYSTEM "./tareas.dtd">
+
+<sistema universidad="UES">
+    <facultad nombre="Ingeniería y Arquitectura">
+        <carrera nombre="Ingeniería de Sistemas Informáticos">
+            <materia nombre="TPI115" profesor="Ing. Balmore Ortiz">
+                <equipo numero="01" formado_en="GL">
+                    <miembros>
+                        <coordinador sexo="M">
+                            <carnet>MG1922</carnet>
+                            <nombres>Juan Mario</nombres>
+                            <apellidos>Mancía Guardado</apellidos>
+                        </coordinador>
+                        <integrante sexo="M">
+                          <carnet>GG2345</carnet>
+                          <nombres>Manuel Daniel</nombres>
+                          <apellidos>García Gómez</apellidos>
+                        </integrante>
+                        <integrante sexo="F">
+                          <carnet>CM2345</carnet>
+                          <nombres>Jeyby Daniela</nombres>
+                          <apellidos>Castillo Meléndez</apellidos>
+                        </integrante>
+                        <integrante sexo="F">
+                          <carnet>CM2345</carnet>
+                          <nombres>Katerin ALejandra</nombres>
+                          <apellidos>Carranza Mendoza</apellidos>
+                        </integrante>
+                    </miembros>
+                    <actividad porcentaje="20%">
+                      Trabajo de Investigación
+                    </actividad>
+                    <tema>
+                      Aplicaciones de la Inteligencia Artificial en el desarrollo de aplicaciones móviles
+                    </tema>
+                </equipo>
+                <equipo numero="02" formado_en="GT">
+                  <miembros>
+                      <coordinador sexo="F">
+                          <carnet>AG1234</carnet>
+                          <nombres>Maria Alejandra</nombres>
+                          <apellidos>González Torres</apellidos>
+                      </coordinador>
+                      <integrante sexo="M">
+                          <carnet>JP3456</carnet>
+                          <nombres>Pablo Javier</nombres>
+                          <apellidos>Pérez Rodríguez</apellidos>
+                      </integrante>
+                      <integrante sexo="M">
+                          <carnet>FG4567</carnet>
+                          <nombres>Fernando Guillermo</nombres>
+                          <apellidos>Flores García</apellidos>
+                      </integrante>
+                      <integrante sexo="M">
+                        <carnet>RH4567</carnet>
+                        <nombres>Mario Guillermo</nombres>
+                        <apellidos>Rodriguez Hernández</apellidos>
+                    </integrante>
+                  </miembros>
+                  <actividad porcentaje="25%">
+                      Desarrollo de Prototipo
+                  </actividad>
+                  <tema>
+                      Innovación en Interfaces de Usuario
+                  </tema>
+              </equipo>
+              <equipo numero="03" formado_en="GL">
+                <miembros>
+                    <coordinador sexo="M">
+                        <carnet>RP5678</carnet>
+                        <nombres>Ricardo Alejandro</nombres>
+                        <apellidos>Pérez Ruiz</apellidos>
+                    </coordinador>
+                    <integrante sexo="F">
+                        <carnet>ML6789</carnet>
+                        <nombres>Marta Lucía</nombres>
+                        <apellidos>Martínez López</apellidos>
+                    </integrante>
+                    <integrante sexo="M">
+                        <carnet>JV7890</carnet>
+                        <nombres>José Vicente</nombres>
+                        <apellidos>Velasco Hernández</apellidos>
+                    </integrante>
+                    <integrante sexo="F">
+                        <carnet>AG8901</carnet>
+                        <nombres>Ana Gabriela</nombres>
+                        <apellidos>Álvarez Gómez</apellidos>
+                    </integrante>
+                </miembros>
+                <actividad porcentaje="15%">
+                    Presentación de Proyecto Final
+                </actividad>
+                <tema>
+                    Impacto de la Realidad Virtual en la Educación
+                </tema>
+            </equipo>
+            
+            </materia>
+            <materia nombre="TOO115" profesor="Lic. Arturo Carballo">
+              <equipo numero="01" formado_en="GT">
+                  <miembros>
+                      <coordinador sexo="F">
+                          <carnet>AG5678</carnet>
+                          <nombres>Ana Gabriela</nombres>
+                          <apellidos>Gómez Linares</apellidos>
+                      </coordinador>
+                      <integrante sexo="M">
+                          <carnet>JM6789</carnet>
+                          <nombres>José Manuel</nombres>
+                          <apellidos>Marín López</apellidos>
+                      </integrante>
+                      <integrante sexo="F">
+                          <carnet>EP7890</carnet>
+                          <nombres>Elena Patricia</nombres>
+                          <apellidos>Estrada Pérez</apellidos>
+                      </integrante>
+                      <integrante sexo="F">
+                        <carnet>EP7460</carnet>
+                        <nombres>Elena María</nombres>
+                        <apellidos>Estrada Pérez</apellidos>
+                    </integrante>
+                  </miembros>
+                  <actividad porcentaje="18%">
+                      Presentación de Proyecto Final
+                  </actividad>
+                  <tema>
+                      Diseño de una Plataforma Educativa en Línea
+                  </tema>
+              </equipo>
+              <equipo numero="02" formado_en="GT">
+                  <miembros>
+                      <coordinador sexo="M">
+                          <carnet>RM1234</carnet>
+                          <nombres>Rodrigo Mauricio</nombres>
+                          <apellidos>Rodríguez Montes</apellidos>
+                      </coordinador>
+                      <integrante sexo="M">
+                          <carnet>RR2345</carnet>
+                          <nombres>Raúl Ricardo</nombres>
+                          <apellidos>Rivas Ramírez</apellidos>
+                      </integrante>
+                      <integrante sexo="F">
+                          <carnet>SC3456</carnet>
+                          <nombres>Silvia Carolina</nombres>
+                          <apellidos>Santos Castillo</apellidos>
+                      </integrante>
+                      <integrante sexo="F">
+                          <carnet>LB4567</carnet>
+                          <nombres>Laura Beatriz</nombres>
+                          <apellidos>López Benítez</apellidos>
+                      </integrante>
+                  </miembros>
+                  <actividad porcentaje="22%">
+                      Presentación de Proyecto Final
+                  </actividad>
+                  <tema>
+                      Aplicaciones de Blockchain en la Cadena de Suministro
+                  </tema>
+              </equipo>
+              <equipo numero="03" formado_en="GT">
+                  <miembros>
+                      <coordinador sexo="M">
+                          <carnet>FP5678</carnet>
+                          <nombres>Fernando Pablo</nombres>
+                          <apellidos>Flores Pérez</apellidos>
+                      </coordinador>
+                      <integrante sexo="F">
+                          <carnet>SR6789</carnet>
+                          <nombres>Sara Rocío</nombres>
+                          <apellidos>Solano Rodríguez</apellidos>
+                      </integrante>
+                      <integrante sexo="M">
+                          <carnet>AI7890</carnet>
+                          <nombres>Andrés Ignacio</nombres>
+                          <apellidos>Alvarez Ibarra</apellidos>
+                      </integrante>
+                      <integrante sexo="M">
+                        <carnet>MI7490</carnet>
+                        <nombres>Alexis Ignacio</nombres>
+                        <apellidos>Monterroza Ibarra</apellidos>
+                    </integrante>
+                  </miembros>
+                  <actividad porcentaje="15%">
+                      Presentación de Proyecto Final
+                  </actividad>
+                  <tema>
+                      Optimización de Procesos Empresariales con Tecnologías Cloud
+                  </tema>
+              </equipo>
+          </materia>
+          
+        </carrera>
+        <carrera nombre="Ingeniería de Software">
+          <materia nombre="ELE115" profesor="Ing. Mariana Rodríguez">
+              <equipo numero="01" formado_en="GT">
+                  <miembros>
+                      <coordinador sexo="F">
+                          <carnet>SL3456</carnet>
+                          <nombres>Sofía Laura</nombres>
+                          <apellidos>Santos López</apellidos>
+                      </coordinador>
+                      <integrante sexo="M">
+                          <carnet>JM4567</carnet>
+                          <nombres>Juan Manuel</nombres>
+                          <apellidos>Jiménez Mendoza</apellidos>
+                      </integrante>
+                      <integrante sexo="M">
+                          <carnet>EC5678</carnet>
+                          <nombres>Emilio Carlos</nombres>
+                          <apellidos>Estrada Contreras</apellidos>
+                      </integrante>
+                      <integrante sexo="F">
+                          <carnet>AM6789</carnet>
+                          <nombres>Andrea Marcela</nombres>
+                          <apellidos>Alvarez Maldonado</apellidos>
+                      </integrante>
+                  </miembros>
+                  <actividad porcentaje="20%">
+                      Actividad evaluada
+                  </actividad>
+                  <tema>
+                      Desarrollo de un sistema de inventarios
+                  </tema>
+              </equipo>
+              <equipo numero="02" formado_en="GT">
+                <miembros>
+                    <coordinador sexo="F">
+                        <carnet>SM3456</carnet>
+                        <nombres>Sofía Lorena</nombres>
+                        <apellidos>Santos Martínez</apellidos>
+                    </coordinador>
+                    <integrante sexo="M">
+                        <carnet>JM2167</carnet>
+                        <nombres>Juan Mario</nombres>
+                        <apellidos>Jiménez Mendez</apellidos>
+                    </integrante>
+                    <integrante sexo="M">
+                        <carnet>EC1671</carnet>
+                        <nombres>Eduardo Carlos</nombres>
+                        <apellidos>Estrada Contreras</apellidos>
+                    </integrante>
+                    <integrante sexo="F">
+                        <carnet>AM2739</carnet>
+                        <nombres>Andrea Marielos</nombres>
+                        <apellidos>Alvarez Maldonado</apellidos>
+                    </integrante>
+                </miembros>
+                <actividad porcentaje="20%">
+                    Diseño y Construcción de Circuitos Electrónicos
+                </actividad>
+                <tema>
+                    Desarrollo de un sistema de pagos en línea
+                </tema>
+            </equipo>
+          </materia>
+      </carrera>
+    </facultad>
+
+</sistema>

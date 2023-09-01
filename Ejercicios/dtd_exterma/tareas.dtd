@@ -1,0 +1,29 @@
+<!ELEMENT sistema (facultad*)>
+  <!ATTLIST sistema universidad CDATA #FIXED "UES">
+<!ELEMENT facultad (carrera*)>
+  <!ATTLIST facultad nombre CDATA #REQUIRED>
+<!ELEMENT carrera (materia*)>
+  <!ATTLIST carrera nombre CDATA #REQUIRED>
+<!ELEMENT materia (equipo*)>
+  <!ATTLIST materia nombre CDATA #REQUIRED>
+  <!ATTLIST materia profesor CDATA #IMPLIED>
+
+<!ELEMENT equipo (miembros+, actividad, tema)>
+  <!ATTLIST equipo numero CDATA #REQUIRED>
+  <!ATTLIST equipo formado_en (GT|GL|GD) #REQUIRED>
+
+<!ELEMENT miembros (coordinador, integrante*)>
+<!ELEMENT coordinador (carnet, nombres, apellidos)>
+  <!ATTLIST coordinador sexo (F|M) "M">
+
+<!ELEMENT integrante (carnet, nombres, apellidos)>
+  <!ATTLIST integrante sexo (F|M) "M">
+
+<!ELEMENT carnet (#PCDATA)>
+<!ELEMENT nombres (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+
+<!ELEMENT actividad (#PCDATA)>
+  <!ATTLIST actividad porcentaje CDATA #IMPLIED>
+
+<!ELEMENT tema (#PCDATA)>
