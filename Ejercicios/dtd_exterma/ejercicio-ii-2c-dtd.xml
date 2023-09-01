@@ -2,7 +2,7 @@
 <!-- ejemplodtd1.xml SUGRUPO -->
 <?xml-stylesheet type="text/css" href="estilo.css"?>
 
-<!DOCTYPE fichero SYSTEM "/ejercicio-ii-2c-dtd.dtd">
+<!DOCTYPE fichero SYSTEM "ejercicio-ii-2c-dtd.dtd">
 <fichero>
  <ficha>
   <nombre sexo="femenino" edad="17">Angelina</nombre>

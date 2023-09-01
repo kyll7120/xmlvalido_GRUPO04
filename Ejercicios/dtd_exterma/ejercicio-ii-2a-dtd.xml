@@ -2,7 +2,7 @@
 <!-- ejemplodtd1.xml SUGRUPO -->
 <?xml-stylesheet type="text/css" href="ejercicio-ii-2a-dtd.css"?>
 
-<!DOCTYPE fichero SYSTEM "/ejercicio-ii-2a-dtd.dtd">
+<!DOCTYPE fichero SYSTEM "ejercicio-ii-2a-dtd.dtd">
 
 <fichero xml:lang="es">
  <ficha>
