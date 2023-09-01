@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- ejemplodtd1.xml SUGRUPO -->
+<?xml-stylesheet type="text/css" href="ejercicio-ii-1a-dtd.css"?>
+
+<!DOCTYPE fichero SYSTEM "/ejercicio-ii-2a-dtd.dtd">
+
+<fichero>
+ <ficha>
+  <nombre sexo="masculino" edad="21">Abner</nombre>
+  <apellido>Rivas</apellido>
+  <direccion>colonia san jose, calle principal</direccion>
+  <DUI>06323701-4</DUI>
+ </ficha>
+</fichero>

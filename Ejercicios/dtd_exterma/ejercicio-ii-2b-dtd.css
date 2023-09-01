@@ -1,0 +1,76 @@
+/* Establece el estilo de la lista */
+fichero {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Cada ficha se mostrará como un elemento de lista */
+ficha {
+    display: list-item;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el elemento 'nombre' */
+nombre {
+    text-align: center;
+    font-weight: bold;
+    color: #0066cc;
+}
+/* Estilo para el atributo 'sexo' en 'nombre' */
+nombre[sexo="masculino"] {
+    display: list-item;
+    color: blue;
+}
+
+nombre[sexo="femenino"] {
+    display: list-item;
+    color: pink;
+}
+
+/* Estilo para el atributo 'edad' en 'nombre' */
+nombre[edad]::before {
+    text-align: right;
+    display: list-item;
+    content: attr(edad);
+    font-weight: normal;
+}
+
+/* Estilo para el atributo 'gentilicio' en 'nombre' */
+nombre[gentilicio]::after {
+    display: list-item;
+    content: attr(gentilicio);
+    font-style: italic;
+}
+
+/* Estilo para el elemento 'apellido' */
+apellido {
+    text-align: center;
+    display: list-item;
+    text-transform: uppercase;
+}
+
+/* Estilo para el elemento 'direccion' */
+direccion {
+    display: list-item;
+    font-style: italic;
+    color: #333;
+}
+
+/* Estilo para el elemento 'DUI' */
+DUI {
+    text-align: right;
+    display: list-item;
+    font-family: monospace;
+    background-color: #f0f0f0;
+    padding: 2px;
+}
+
+/* Estilo para el elemento 'pais' */
+pais {
+    text-align: center;
+    display: list-item;
+    font-weight: bold;
+    color: green;
+}
