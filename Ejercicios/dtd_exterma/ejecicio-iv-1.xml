@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "ejercicio-iv-1.dtd">
+<biblioteca>
+    <libro>
+        <titulo>El Gran Gatsby</titulo>
+        <autor>F. Scott Fitzgerald</autor>
+        <genero>Novela</genero>
+        <editorial>Scribner</editorial>
+        <publicacion>1925</publicacion>
+    </libro>
+    <libro>
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <genero>Distopía</genero>
+        <editorial>Secker & Warburg</editorial>
+        <publicacion>1949</publicacion>
+    </libro>
+</biblioteca>

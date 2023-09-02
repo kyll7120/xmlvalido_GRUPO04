@@ -1,0 +1,27 @@
+/* ejercicio-iv-1.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .libro {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  .libro h2 {
+    color: #333;
+  }
+  
+  .libro p {
+    margin: 5px 0;
+  }
+  
