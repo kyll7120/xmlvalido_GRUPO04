@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE biblioteca SYSTEM "ejercicio-iv-1.dtd">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejecicio-iv-1.css" type="text/css"?>
+<!DOCTYPE biblioteca SYSTEM "ejecicio-iv-1.dtd">
 <biblioteca>
     <libro>
         <titulo>El Gran Gatsby</titulo>
@@ -9,10 +10,10 @@
         <publicacion>1925</publicacion>
     </libro>
     <libro>
-        <titulo>1984</titulo>
+        <titulo>The open street</titulo>
         <autor>George Orwell</autor>
         <genero>Distopía</genero>
-        <editorial>Secker & Warburg</editorial>
+        <editorial>Secker Warburg</editorial>
         <publicacion>1949</publicacion>
     </libro>
 </biblioteca>

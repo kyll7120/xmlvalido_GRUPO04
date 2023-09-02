@@ -1,27 +1,49 @@
 /* ejercicio-iv-1.css */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 20px;
-  }
-  
-  h1 {
-    text-align: center;
-    color: #333;
-  }
-  
-  .libro {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 20px;
-    background-color: #fff;
-  }
-  
-  .libro h2 {
-    color: #333;
-  }
-  
-  .libro p {
-    margin: 5px 0;
-  }
+
+/* Estilos para los libros */
+libro {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: block;
+    width: 100%;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+libro h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+libro p {
+  margin: 8px 0;
+}
+
+
+titulo {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+autor,genero,editorial,publicacion{
+  display: flex;
+  flex-direction: column;
+  background-color: #f1efe6;
+  margin: 5px 0px;
+  padding: 15px 0px ;
+}
+
   
