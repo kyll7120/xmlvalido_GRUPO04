@@ -2,6 +2,7 @@
 <?xml-stylesheet href="ejecicio-iv-1.css" type="text/css"?>
 <!DOCTYPE biblioteca SYSTEM "ejecicio-iv-1.dtd">
 <biblioteca>
+<párrafo><a href="../../index.html" xmlns="http://www.w3.org/1999/xhtml">Inicio</a></párrafo>
     <libro>
         <titulo>El Gran Gatsby</titulo>
         <autor>F. Scott Fitzgerald</autor>

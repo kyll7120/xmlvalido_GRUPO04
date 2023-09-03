@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml-stylesheet type="text/css" href="estilo.css"?>
 <!DOCTYPE fichero SYSTEM "fichero.dtd">
 <fichero>
  <ficha>
@@ -8,5 +8,6 @@
   </nombre>
   <apellido>Barbero</apellido>
   <direccion>c/Ulises, 36</direccion>
+  <párrafo><a href="../../index.html" xmlns="http://www.w3.org/1999/xhtml">Inicio</a></párrafo>
 </ficha>
 </fichero>

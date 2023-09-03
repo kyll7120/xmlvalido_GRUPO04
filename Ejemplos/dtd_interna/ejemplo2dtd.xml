@@ -8,5 +8,6 @@
   </nombre>
   <apellido>Barbero</apellido>
   <direccion>c/Ulises, 36</direccion>
+  <párrafo><a href="../../index.html" xmlns="http://www.w3.org/1999/xhtml">Inicio</a></párrafo>
 </ficha>
 </fichero>
